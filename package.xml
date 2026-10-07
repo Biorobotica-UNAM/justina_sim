@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>justina_sim</name>
+  <version>0.0.0</version>
+  <description>Simple simulation nodes and optional Kinect tilt motor support for Justina.</description>
+  <maintainer email="mail@mail.com">daniel_v</maintainer>
+  <license>Apache 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>arms_interfaces</exec_depend>
+  <exec_depend>head_interfaces</exec_depend>
+  <exec_depend>torso_interfaces</exec_depend>
+  <exec_depend>python3-usb</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
